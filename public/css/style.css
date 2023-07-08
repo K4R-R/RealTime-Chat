@@ -115,12 +115,24 @@ a {
 
 .chat-messages .message {
 	padding: 15px;
+	padding-left: 30px;
 	margin-bottom: 15px;
+	margin-right: 150px;
 	background-color: #9c80ff;
 	color: rgb(255, 255, 255);
 	font-size: 18px;
 	font-weight: 700;
-	border-radius: 5px;
+	border-radius: 15px;
+	border-bottom-left-radius: 0;
+	
+}
+
+.chat-messages .my-message {
+	margin-left: 150px;
+	margin-right: 0px;
+	background-color: #8340ff;
+	border-radius: 15px;
+	border-bottom-right-radius: 0;
 }
 
 .chat-messages .bot-message {
